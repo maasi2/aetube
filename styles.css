@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(90deg, rgba(65, 164, 253, 1), rgba(14, 244, 255, 1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    max-width: 600px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* ソーシャルメディアのリンクスタイル */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 40px; /* アイコンの幅 */
+    height: 40px; /* アイコンの高さ */
+    border-radius: 50%; /* アイコンを円形にする */
+}
